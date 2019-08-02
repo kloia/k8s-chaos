@@ -1,6 +1,7 @@
 # PowerfulSeal : 
 This tool has a policy types for nodes and pods for customizing them , policy file example : 
 
+
 ```
 config:
   minSecondsBetweenRuns: 1
@@ -32,3 +33,5 @@ match:
 if application tag `app=microservice` it will hard KILL at the docker level . (Removing docker container in the pod) 
 `sudo docker kill -s SIGKILL HASH_OF_THE_CONTAINER`
 
+
+Seal Run Command : seal autonomous --kubeconfig $KUBECONFIG --policy-file ./pod-policy.yaml   --no-cloud  -i inventory --ssh-path-to-private-key PRIVATE_KEY  --remote-user USER --ssh-allow-missing-host-keys
