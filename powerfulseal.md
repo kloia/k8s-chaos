@@ -1,10 +1,3 @@
-# Kubernetes CHAOS ENGINEERING REPO
-
-Kloia team is applying chaos scenarios at two level :
- * Pod
- * Node 
-
-We have several tools for implement them 
 # PowerfulSeal : 
 This tool has a policy types for nodes and pods for customizing them , policy file example : 
 
