@@ -39,10 +39,10 @@ if application tag `app=microservice` it will hard KILL at the docker level . (
 seal autonomous --kubeconfig $KUBECONFIG --policy-file ./pod-policy.yaml   --no-cloud  -i inventory --ssh-path-to-private-key PRIVATE_KEY  --remote-user USER --ssh-allow-missing-host-keys `
 
 ## Before Applied Chaos 
-<img src="https://github.com/kloia/k8s-chaos/blob/master/media/normal.png"></img>
+<img width="600px" height="200px" src="https://github.com/kloia/k8s-chaos/blob/master/media/normal.png"></img>
 
 ## After Applied Chaos
-<img src="https://github.com/kloia/k8s-chaos/blob/master/media/chaos.png"></img>
+<img width="600px" height="200px" src="https://github.com/kloia/k8s-chaos/blob/master/media/chaos.png"></img>
 
 
 
