@@ -30,6 +30,16 @@ match:
       selector: "app=microservice1"
 ```
 
+## Multi Label Pod Policy
+
+```
+    match:
+      - labels:
+          namespace: "mynamespace"
+          selector: "app=microservice1,chaos=enabled"
+```
+
+
 if application tag `app=microservice` it will hard KILL at the docker level . (Removing docker container in the pod) 
 `sudo docker kill -s SIGKILL HASH_OF_THE_CONTAINER`
 
